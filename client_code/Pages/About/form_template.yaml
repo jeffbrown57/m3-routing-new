@@ -1,0 +1,9 @@
+components_by_slot:
+  content:
+  - layout_properties: {}
+    name: heading_1
+    properties: {text: About}
+    type: form:dep_dqy391v097mxd:_Components.Heading
+  slot_1: []
+is_package: true
+layout: {type: 'form:Layouts.Main'}
