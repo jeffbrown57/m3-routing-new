@@ -9,3 +9,7 @@ class Home(Route):
 class About(Route):
     path = "/about"
     form = "Pages.About"
+
+class ContactUS(Route):
+    path = "/contact"
+    form = "Pages.ContactUS"
