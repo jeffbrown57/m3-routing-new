@@ -70,7 +70,7 @@ dependencies:
 - dep_id: dep_e8yi28nlqn6xsi
   resolution_hints: {app_id: D6OE4Z2Y7QF64DOS, name: Medicaldash, package_name: Medicaldash}
   version: {branch: master}
-name: Clone of routing m3 example (3)
+name: routing m3 example
 native_deps:
   head_html: |2
 
