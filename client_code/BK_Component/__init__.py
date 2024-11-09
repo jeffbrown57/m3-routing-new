@@ -8,8 +8,20 @@ class BK_Component(BK_ComponentTemplate):
         self.init_components(**properties)
 
         # Any code you write here will run before the form opens.
+    @property
+    def case_admin(self):
+      print(f"Getting Case-Admin: {self._case_admin}")
+      return self._case_admin
+
+    @case_admin.setter
+    def case_admin(self, value):
+      print(f"Setting case_admin: {value}")
+      self._case_admin = value
+      #self.column_panel_1.background = value
 
     def button_1_click(self, **event_args):
         """This method is called when the component is clicked."""
-        Notification("You have submitted debor credentials", title="BK Case").show()
+        print(dir(card_1.BK_Component()))
+        #print(self.case_admin())
+        Notification(f"Debtor: {self.text_box_debtor.text}\nChapter: {self.text_box_chapter.text} ", title="BK Case").show()
         pass
