@@ -14,3 +14,7 @@ class About(AboutTemplate):
     def heading_1_show(self, **event_args):
         """This method is called when the component is shown on the screen."""
         pass
+
+    def button_1_click(self, **event_args):
+        """This method is called when the component is clicked."""
+        pass

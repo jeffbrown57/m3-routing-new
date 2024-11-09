@@ -23,7 +23,8 @@ components_by_slot:
         name: text_box_3
         properties: {label: Voltage}
         type: form:dep_dqy391v097mxd:_Components.TextInput.TextBox
-      - layout_properties: {slot: card-content-container-slot}
+      - event_bindings: {click: button_1_click}
+        layout_properties: {slot: card-content-container-slot}
         name: button_1
         properties: {align: full, text: Submit, text_color: yellow}
         type: form:dep_dqy391v097mxd:_Components.Button
