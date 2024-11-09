@@ -67,6 +67,9 @@ dependencies:
 - dep_id: dep_dqy391v097mxd
   resolution_hints: {app_id: 4UK6WHQ6UX7AKELK, name: Material 3 Theme 2.0, package_name: Material_3_Theme_2_0}
   version: {version_tag: v1.1.3}
+- dep_id: dep_jo1zgjyef1g3iv
+  resolution_hints: {app_id: UOKTPGJ2RHQC6ANH, name: SprucewoodTerr, package_name: SprucewoodTerr}
+  version: {branch: master}
 name: Clone of routing m3 example (3)
 native_deps:
   head_html: |2
