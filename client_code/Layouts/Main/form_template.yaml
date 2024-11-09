@@ -1,17 +1,24 @@
 components_by_slot:
   content:
-  - layout_properties: {}
+  - components: []
+    layout_properties: {}
     name: column_panel_1
     properties: {}
     type: ColumnPanel
   nav_drawer:
-  - layout_properties: {}
+  - event_bindings: {}
+    layout_properties: {}
     name: nav_link_1
     properties: {icon: 'mi:home', path: /, text: Home}
     type: form:dep_0au3q6o9n1jd7b:router.NavLink
-  - layout_properties: {}
+  - event_bindings: {}
+    layout_properties: {}
     name: nav_link_2
     properties: {icon: 'mi:group', path: /about, text: About}
+    type: form:dep_0au3q6o9n1jd7b:router.NavLink
+  - layout_properties: {}
+    name: nav_link_3
+    properties: {active: false, icon: 'mi:access_time_filled', path: /contact, text: ContactUS, visible: true}
     type: form:dep_0au3q6o9n1jd7b:router.NavLink
 is_package: true
 layout: {type: 'form:dep_dqy391v097mxd:Layouts.NavigationDrawerLayout'}

@@ -1,3 +1,5 @@
+import anvil.google.auth, anvil.google.drive
+from anvil.google.drive import app_files
 from routing.router import Route, debug_logging
 
 debug_logging(True)

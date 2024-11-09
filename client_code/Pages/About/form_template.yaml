@@ -1,9 +1,40 @@
 components_by_slot:
   content:
-  - layout_properties: {}
+  - event_bindings: {show: heading_1_show}
+    layout_properties: {}
     name: heading_1
-    properties: {text: About}
+    properties: {align: center, text: About}
     type: form:dep_dqy391v097mxd:_Components.Heading
+  - components:
+    - components:
+      - layout_properties: {slot: card-content-container-slot}
+        name: anchor_1
+        properties: {bold: true, path: /forming, text: This is my Anchor, text_color: purple}
+        type: form:dep_0au3q6o9n1jd7b:router.Anchor
+      - layout_properties: {slot: card-content-container-slot}
+        name: text_box_1
+        properties: {display_text_color: brown, label: MCU}
+        type: form:dep_dqy391v097mxd:_Components.TextInput.TextBox
+      - layout_properties: {slot: card-content-container-slot}
+        name: text_box_2
+        properties: {display_bold: false, display_text_color: brown, label: Sensor}
+        type: form:dep_dqy391v097mxd:_Components.TextInput.TextBox
+      - layout_properties: {slot: card-content-container-slot}
+        name: text_box_3
+        properties: {label: Voltage}
+        type: form:dep_dqy391v097mxd:_Components.TextInput.TextBox
+      - layout_properties: {slot: card-content-container-slot}
+        name: button_1
+        properties: {align: full, text: Submit, text_color: yellow}
+        type: form:dep_dqy391v097mxd:_Components.Button
+      layout_properties: {slot: card-content-slot}
+      name: card_content_container_1
+      properties: {}
+      type: form:dep_dqy391v097mxd:_Components.Card.CardContentContainer
+    layout_properties: {}
+    name: card_1
+    properties: {}
+    type: form:dep_dqy391v097mxd:_Components.Card
   slot_1: []
 is_package: true
 layout: {type: 'form:Layouts.Main'}

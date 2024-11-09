@@ -1,5 +1,7 @@
 from ._anvil_designer import ContactUSTemplate
 from anvil import *
+import anvil.google.auth, anvil.google.drive
+from anvil.google.drive import app_files
 from Medicaldash import Utilities_All as utils
 
 
@@ -10,4 +12,6 @@ class ContactUS(ContactUSTemplate):
 
         # Any code you write here will run before the form opens.
         print(utils.get_author())
-        self.text_box_1.text = utils
+        #self.text_box_1.text = utils
+
+    
