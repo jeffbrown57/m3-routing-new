@@ -7,4 +7,8 @@ class Main(MainTemplate):
         # Set Form properties and Data Bindings.
         self.init_components(**properties)
 
+    def nav_link_1_click(self, **event_args):
+        """This method is called when the component is clicked"""
+        pass
+
    

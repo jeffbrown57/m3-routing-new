@@ -1,9 +1,4 @@
 components_by_slot:
-  content:
-  - event_bindings: {}
-    layout_properties: {}
-    name: heading_3
-    properties: {text: ContactUS}
-    type: form:dep_dqy391v097mxd:_Components.Heading
+  content: []
 is_package: true
 layout: {type: 'form:Layouts.Main'}
