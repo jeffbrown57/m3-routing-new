@@ -21,7 +21,7 @@ class BK_Component(BK_ComponentTemplate):
 
     def button_1_click(self, **event_args):
         """This method is called when the component is clicked."""
-        print(dir(card_1.BK_Component()))
+        #print(self.bk_component_1.case_admin()))
         #print(self.case_admin())
         Notification(f"Debtor: {self.text_box_debtor.text}\nChapter: {self.text_box_chapter.text} ", title="BK Case").show()
         pass

@@ -22,6 +22,10 @@ components:
     name: text_box_atty
     properties: {label: Attorney}
     type: form:dep_dqy391v097mxd:_Components.TextInput.TextBox
+  - layout_properties: {slot: card-content-slot}
+    name: bk_component_1
+    properties: {}
+    type: form:BK_Component
   - event_bindings: {click: button_1_click}
     layout_properties: {slot: card-content-slot}
     name: button_1
@@ -33,6 +37,8 @@ components:
   type: form:dep_dqy391v097mxd:_Components.Card
 container: {type: ColumnPanel}
 custom_component: true
+events:
+- {default_event: true, description: When component is clicked, name: click_event}
 is_package: true
 properties:
 - {default_binding_prop: true, default_value: Lois Labelle, description: Case Administrator, important: true, name: case_admin, type: string}
