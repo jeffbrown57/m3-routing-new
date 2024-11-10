@@ -1,16 +1,16 @@
 components_by_slot:
-  content:
-  - event_bindings: {}
-    layout_properties: {}
-    name: nav_link_2
-    properties: {icon: 'mi:group', path: /about, text: About}
-    type: form:dep_0au3q6o9n1jd7b:router.NavLink
+  content: []
   nav_drawer: []
   navigation:
   - event_bindings: {}
     layout_properties: {}
     name: nav_link_1
     properties: {icon: 'mi:home', path: /, text: Home}
+    type: form:dep_0au3q6o9n1jd7b:router.NavLink
+  - event_bindings: {}
+    layout_properties: {}
+    name: nav_link_2
+    properties: {icon: 'mi:group', path: /about, text: About}
     type: form:dep_0au3q6o9n1jd7b:router.NavLink
   - layout_properties: {}
     name: nav_link_3
