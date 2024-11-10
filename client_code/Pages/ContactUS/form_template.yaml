@@ -5,10 +5,5 @@ components_by_slot:
     name: heading_3
     properties: {text: ContactUS}
     type: form:dep_dqy391v097mxd:_Components.Heading
-  - event_bindings: {click_event: bk_component_1_click_event}
-    layout_properties: {}
-    name: bk_component_1
-    properties: {}
-    type: form:BK_Component
 is_package: true
 layout: {type: 'form:Layouts.Main'}
