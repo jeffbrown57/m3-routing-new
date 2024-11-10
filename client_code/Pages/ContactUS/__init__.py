@@ -1,7 +1,5 @@
 from ._anvil_designer import ContactUSTemplate
 from anvil import *
-import anvil.google.auth, anvil.google.drive
-from anvil.google.drive import app_files
 from Medicaldash import Utilities_All as utils
 
 

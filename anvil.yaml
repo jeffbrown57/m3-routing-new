@@ -70,9 +70,6 @@ dependencies:
 - dep_id: dep_e8yi28nlqn6xsi
   resolution_hints: {app_id: D6OE4Z2Y7QF64DOS, name: Medicaldash, package_name: Medicaldash}
   version: {branch: master}
-- dep_id: dep_erlj02njhwcskg
-  resolution_hints: {app_id: F2KOOOO4W6HSGUZJ, name: BK_Components, package_name: BK_Components}
-  version: {branch: master}
 name: routing m3 example
 native_deps:
   head_html: |2
