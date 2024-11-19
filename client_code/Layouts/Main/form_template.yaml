@@ -1,5 +1,10 @@
 components_by_slot:
-  content: []
+  content:
+  - event_bindings: {degree: utility_1_degree}
+    layout_properties: {}
+    name: utility_1
+    properties: {}
+    type: form:Utility
   nav_drawer: []
   navigation:
   - event_bindings: {click: nav_link_1_click}

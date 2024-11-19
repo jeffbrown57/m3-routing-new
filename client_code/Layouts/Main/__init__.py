@@ -11,4 +11,9 @@ class Main(MainTemplate):
         """This method is called when the component is clicked"""
         pass
 
+    def utility_1_degree(self, received, **event_args):
+        """This method is called Degree Obtained"""
+        Notification("cust_comp_reached").show()
+        pass
+
    

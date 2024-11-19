@@ -1,0 +1,42 @@
+components:
+- components:
+  - components:
+    - layout_properties: {slot: card-content-container-slot}
+      name: heading_1
+      properties: {align: center, text: Anvil Component HQ}
+      type: form:dep_dqy391v097mxd:_Components.Heading
+    - layout_properties: {slot: card-content-container-slot}
+      name: text_box_name
+      properties: {label: Name}
+      type: form:dep_dqy391v097mxd:_Components.TextInput.TextBox
+    - layout_properties: {slot: card-content-container-slot}
+      name: text_box_education
+      properties: {label: Education}
+      type: form:dep_dqy391v097mxd:_Components.TextInput.TextBox
+    - event_bindings: {click: button_1_click}
+      layout_properties: {slot: card-content-container-slot}
+      name: button_1
+      properties: {align: right, text: Submit Data}
+      type: form:dep_dqy391v097mxd:_Components.Button
+    layout_properties: {slot: card-content-slot}
+    name: card_content_container_1
+    properties: {}
+    type: form:dep_dqy391v097mxd:_Components.Card.CardContentContainer
+  layout_properties: {grid_position: 'IGWAPV,IHUDRN'}
+  name: card_1
+  properties: {}
+  type: form:dep_dqy391v097mxd:_Components.Card
+container: {type: ColumnPanel}
+custom_component: true
+events:
+- default_event: true
+  description: Degree Obtained
+  name: degree
+  parameters:
+  - {description: string, name: received}
+- {name: event}
+is_package: true
+properties:
+- {default_binding_prop: true, default_value: High School, important: true, name: secondary, type: string}
+- {default_value: Middle School, description: Primary School, important: true, name: primary, type: string}
+toolbox_item: {title: Education Component}
