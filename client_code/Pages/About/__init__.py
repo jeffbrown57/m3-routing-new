@@ -6,6 +6,7 @@ from anvil.google.drive import app_files
 import anvil.tables as tables
 import anvil.tables.query as q
 from anvil.tables import app_tables
+from anvil.js.window import navigator
 
 
 class About(AboutTemplate):
@@ -14,3 +15,9 @@ class About(AboutTemplate):
         self.init_components(**properties)
 
         # Any code you write here will run before the form opens.
+
+    def button_to_js_click(self, **event_args):
+        """This method is called when the component is clicked."""
+        X = "Copy/paste from Anvil is simple!"
+        navigator.clipboard.writeText(X)
+        pass

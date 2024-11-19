@@ -1,4 +1,5 @@
 from routing.router import Route, debug_logging
+#from anvil.js.window import navigator
 
 debug_logging(True)
 
