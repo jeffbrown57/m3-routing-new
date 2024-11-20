@@ -13,5 +13,5 @@ class Utility(UtilityTemplate):
 
     def button_1_click(self, **event_args):
         """This method is called when the component is clicked."""
-        alert(title="Educ Summary", role="")
+        alert("Help Me ?",  title="Educ Summary", large=False, buttons=[Button(text="Click Me")])
         pass
