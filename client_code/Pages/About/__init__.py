@@ -18,6 +18,6 @@ class About(AboutTemplate):
 
     def button_to_js_click(self, **event_args):
         """This method is called when the component is clicked."""
-        X = "Copy/paste from Anvil is simple!"
+        X = "Copy/paste from Anvil is delectable!"
         navigator.clipboard.writeText(X)
         pass
