@@ -21,3 +21,8 @@ class About(AboutTemplate):
         X = "Copy/paste from Anvil is delectable!"
         navigator.clipboard.writeText(X)
         pass
+
+    def button_run_task_click(self, **event_args):
+        """This method is called when the component is clicked."""
+        ret = anvil.server.call('run_it')
+        pass
