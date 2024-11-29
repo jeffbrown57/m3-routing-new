@@ -66,7 +66,7 @@ dependencies:
   version: {version_tag: v0.2.1}
 - dep_id: dep_dqy391v097mxd
   resolution_hints: {app_id: 4UK6WHQ6UX7AKELK, name: Material 3 Theme 2.0, package_name: Material_3_Theme_2_0}
-  version: {version_tag: v1.2.0}
+  version: {version_tag: v1.2.1}
 - dep_id: dep_e8yi28nlqn6xsi
   resolution_hints: {app_id: D6OE4Z2Y7QF64DOS, name: Medicaldash, package_name: Medicaldash}
   version: {branch: master}
